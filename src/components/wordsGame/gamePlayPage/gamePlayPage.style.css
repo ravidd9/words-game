@@ -1,0 +1,69 @@
+.instruction {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.wordToGuess {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin-top: 20px;
+}
+
+.guessInput {
+    font-size: 40px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid var(--secondary-color);
+    background-color: transparent;
+    padding: 5px 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.guessInput:focus {
+    outline: none;
+}
+
+.checkGuessBtn {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--secondary-color);
+    border-radius: 35px;
+    padding: 15px 35px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 0px;
+    cursor: pointer;
+}
+
+.guessMsg, .levelMsg {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+    height: 35px;
+}
+
+
+.backToIntroBtn {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--secondary-color);
+    border-radius: 35px;
+    padding: 15px 35px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 0px;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+
+:root {
+    --main-color: white;
+    --main-color: rgb(124, 227, 253);;
+    --secondary-color: rgb(36, 124, 206);
+}
+
+
+.wordsGameContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+}

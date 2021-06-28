@@ -1,0 +1,82 @@
+
+
+.gameOverText {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.gameOverScore {
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.submitScoreTitle {
+    font-size: 22px;
+    margin-top: 50px;
+    font-weight: 600;
+    color: black;
+}
+
+.submitScoreForm {
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: left;
+    column-gap: 10px;
+    row-gap: 20px;
+    font-size: 20px;
+    color: var(--secondary-color);
+    color: black;
+    font-weight: 600;
+}
+
+.submitScoreForm input {
+    background-color: transparent;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid var(--secondary-color);
+    border-bottom: 2px solid black;
+}
+
+.submitScoreForm input:focus {
+    outline: none;
+}
+
+
+.submitScoreBtn {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--secondary-color);
+    border-radius: 35px;
+    padding: 8px 25px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto 0px;
+    cursor: pointer;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.formMsg {
+    height: 36px;
+}
+
+.newGameBtn {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--secondary-color);
+    border-radius: 35px;
+    padding: 15px 35px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto 0px;
+    cursor: pointer;
+}
